@@ -92,10 +92,10 @@ public class TestBatches {
 		testCases.bookBusTicketAndCancelTicket();
 //	child1.log(LogStatus.PASS,"bookBusTicketAndCancelTicket" , "Success");
 //	child1.log(LogStatus.INFO, "It is a smoke test,it took 50 seconds");
-	//testCases.bookBusTicketAndPrint();
+	testCases.bookBusTicketAndPrint();
 	//child2.log(LogStatus.PASS,"bookBusTicketAndPrint" , "Success");
 //	child2.log(LogStatus.INFO, "It is a smoke test,it took 50 seconds");
-//	testCases.bookBusTicketAndTrackService();
+	testCases.bookBusTicketAndTrackService();
 //	child3.log(LogStatus.PASS,"bookBusTicketAndTrackService" , "Success");
 //	child3.log(LogStatus.INFO, "It is a smoke test,it took 50 seconds");
 

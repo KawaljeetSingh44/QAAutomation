@@ -97,7 +97,7 @@ public class TestCases {
 		
 	 logReport(login.launchApplication(),"launch");
 		
-	result = 	login.loginTOApplication();logReport(result,"Login");
+    logReport(login.loginTOApplication(),"Login");
 	logReport(home.bookTicket2(),"bookTicket2");
 	logReport(home.printTicket(),"printTicket");
 	logReport(login.logOutFromApplication(),"logOutFromApplication");
@@ -121,7 +121,9 @@ public class TestCases {
 //		
 //		login.logOutFromApplication();
 //		login.closeApplication();
-		result = 	login.loginTOApplication();logReport(result,"Login");
+		 logReport(login.launchApplication(),"launch");
+
+	logReport(login.loginTOApplication(),"Login");
 		logReport(home.bookTicket2(),"bookTicket2");
 		logReport(home.printTicket(),"printTicket");
 		logReport(login.logOutFromApplication(),"logOutFromApplication");
@@ -148,7 +150,7 @@ public class TestCases {
 //		login.logOutFromApplication();
 //		login.closeApplication();
 //		
-		result = 	login.loginTOApplication();logReport(result,"Login");
+		logReport(login.loginTOApplication(),"Login");
 		logReport(home.bookTicket2(),"bookTicket2");
 		logReport(home.printTicket(),"printTicket");
 	
